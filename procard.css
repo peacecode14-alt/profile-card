@@ -1,0 +1,82 @@
+/* تنسيق عام للصفحة */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* توسيط أفقي */
+    align-items: center;     /* توسيط رأسي */
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+/* البطاقة */
+.card {
+    background-color: #fff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* حاوية الصورة */
+.image-container {
+    position: relative;
+    width: 120px;
+    margin: 0 auto 15px;
+}
+
+.image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* الشارة (Badge) */
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+/* النصوص */
+.job {
+    color: #777;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+/* الأزرار */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.btn.primary {
+    background-color: #2196f3;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
